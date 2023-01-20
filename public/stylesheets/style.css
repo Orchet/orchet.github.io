@@ -48,17 +48,17 @@ a{
 }
 
 #seccionhabilidades table {
-  border-collapse: collapse;
+  margin: 0 auto;
 }
 
 #seccionhabilidades table td {
-  text-align: center;
-  border:1px  solid;
+  text-align: center;  
+  /* border:1px  solid; */
 }
 
-#seccionhabilidades table th {
+/* #seccionhabilidades table th {
   border:1px  solid;
-}
+} */
 
 
 #secciondatos p {
@@ -75,4 +75,17 @@ color:#0BCC7B;
 #nav ul {
   list-style-type:none;  
 }
+
+#seccioncontactenos {
+  display: grid;
+  grid-template-areas: "area1 area1 .     ."
+                       "area2 area2 area3 area3"
+                       "area4 area4 area5 area5";     
+}
+
+#uno {grid-area: area1;}
+#dos {grid-area: area2;}
+#tres {grid-area: area3;}
+#cuatro {grid-area: area4;} 
+#cinco {grid-area: area5;}
 

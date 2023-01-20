@@ -1,0 +1,45 @@
+#contenedor {
+    display: grid;
+    grid-template-areas: "area1 area1 area2 area2"
+                         "area1 area1 area2 area2"
+                         "area3 area3 area4 area4"
+                         "area3 area3 area4 area4"
+                         "area3 area3 area4 area4"
+                         "area3 area3 area4 area4";
+}
+
+#uno {
+    background-color: chartreuse;
+    grid-area: area1; 
+}
+
+#dos {
+    background-color: cadetblue;
+    grid-area: area2;
+}
+
+#tres {
+    background-color: coral;
+    grid-area: area3;
+}
+
+#cuatro {
+    background-color: darkgray;
+    grid-area: area4;
+}
+
+#cinco {
+    background-color: lightgreen;
+    grid-area: area5;
+}
+
+#seis {
+    background-color: cyan;
+     grid-area: area6; 
+}
+
+.caja div {
+    padding: 5%;
+    font-size: 2rem;
+    text-align: center;
+}
