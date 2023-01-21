@@ -74,6 +74,8 @@ color:#0BCC7B;
 
 #nav ul {
   list-style-type:none;  
+  display:flex;
+  justify-content:space-around;
 }
 
 #seccioncontactenos {
@@ -88,4 +90,12 @@ color:#0BCC7B;
 #tres {grid-area: area3;}
 #cuatro {grid-area: area4;} 
 #cinco {grid-area: area5;}
+
+
+#piepagina {
+  display: flex; 
+  flex-direction: column; 
+}
+
+
 
