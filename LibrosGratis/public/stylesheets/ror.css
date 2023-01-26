@@ -13,7 +13,7 @@ body {
 
 #img {
   width: 40%;
-  height: 10% ;
+  height: 30% ;
   padding: 0.5%;
   margin-top: 2%;
   margin-bottom: 2%; 
@@ -21,50 +21,70 @@ body {
 }
 
 .seccion {
-    width: 90%;
-    height: 90% ;
+    width: 40%;
+    height: 40% ;
     background-color:white;
     padding: 1%;
     margin-top: 2%;
-    margin-bottom: 50%; 
+    margin-bottom: 5%; 
     box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
   }
 
 #separacion{
     display:flex;
-    /* flex-direction: column; */
+    flex-direction: row;
     /* justify-content:space-around; */
   }  
 
-  .item1 {
-    flex-basis:40%;
+  #link {
+    text-align: left;
+    margin-left: 150px;
+  }
+
+   .item1 {
+    flex-basis:30%;
     flex-grow: 0;
     flex-shrink: 0;
+    padding: 1% 0 0 5%; 
+    text-align: right;
   }
 
   .item2 {
+    flex-basis:30%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding: 0 0% 0 5%; 
+    text-align: left;
+  }  
+
+  .item3 {
     flex-basis:20%;
     flex-grow: 0;
     flex-shrink: 0;
-  }
-
+    margin-top: 30px;
+  } 
+ 
   #separacionCol{
     display:flex;
     flex-direction: column;
+    padding: 5% 0 0 10% ;
+    border-left: 5px solid maroon;
+
     /* justify-content:space-around; */
   }    
 
   #centro {
     display:flex;
     flex-direction: column;    
-    margin-top: 5%;
+    margin-top: 8%;
     margin-left: 2%;
-    margin-right: 2%;
+    margin-right: 4%;
   }
 
   #centro p{
     text-align: justify;
-    text-justify: inter-word;
+    /* text-justify: inter-word; */
+    padding: 0 8% 0 0%;
   }
 
   #span1 {
@@ -80,4 +100,10 @@ body {
     color:blue;
     text-decoration: underline;
     font-weight: bold;
+    font-size: 20px;
+  }
+
+  #h1 {
+    font-weight: bold;
+    font-size: 35px;
   }
